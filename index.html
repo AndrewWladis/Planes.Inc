@@ -38,14 +38,23 @@
         .white-text {
             color: white;
         }
+
+        #palane:hover {
+            transform: rotate(20deg);
+            transform: skewY(20deg);
+            transition-duration: 200ms;
+            transition-timing-function: linear;
+        }
     </style>
 </head>
 <body>
     <div class="text-center">
         <h1 class="display-1">Planes Inc.</h1>
         <div class="plane">
-            <img src="airplane.png">
+            <img id="palane" src="airplane.png">
         </div>
+        <br>
+        <br>
         <h1 class="text-center">We specialize in well designed Paper Airplanes from the greatest creators and designers. All of our air planes are deisgned with the passenger in mind.</h1>
     </div>
     <br>
